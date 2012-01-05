@@ -7911,22 +7911,22 @@ closed = 1;
 nodes = (
 "0 -85 LINE",
 "32 -85 OFFCURVE",
-"205 -84 OFFCURVE",
-"236 -84 CURVE SMOOTH",
-"267 -84 OFFCURVE",
-"468 -85 OFFCURVE",
-"500 -85 CURVE",
-"500 -33 LINE",
-"468 -33 OFFCURVE",
-"268 -32 OFFCURVE",
-"236 -32 CURVE SMOOTH",
-"204 -32 OFFCURVE",
+"115 -84 OFFCURVE",
+"146 -84 CURVE SMOOTH",
+"177 -84 OFFCURVE",
+"268 -85 OFFCURVE",
+"300 -85 CURVE",
+"300 -33 LINE",
+"268 -33 OFFCURVE",
+"178 -32 OFFCURVE",
+"146 -32 CURVE SMOOTH",
+"114 -32 OFFCURVE",
 "32 -33 OFFCURVE",
 "0 -33 CURVE"
 );
 }
 );
-width = 500;
+width = 300;
 }
 );
 unicode = 005F;
@@ -8312,22 +8312,22 @@ nodes = (
 "16 289 CURVE",
 "19 328 LINE",
 "118 321 OFFCURVE",
-"351 323 OFFCURVE",
-"449 323 CURVE SMOOTH",
-"495 323 OFFCURVE",
-"931 325 OFFCURVE",
-"967 325 CURVE",
-"967 286 LINE",
-"932 286 OFFCURVE",
-"495 284 OFFCURVE",
-"450 284 CURVE SMOOTH",
-"414 284 OFFCURVE",
+"211 323 OFFCURVE",
+"309 323 CURVE SMOOTH",
+"355 323 OFFCURVE",
+"481 325 OFFCURVE",
+"517 325 CURVE",
+"517 286 LINE",
+"482 286 OFFCURVE",
+"355 284 OFFCURVE",
+"310 284 CURVE SMOOTH",
+"274 284 OFFCURVE",
 "157 283 OFFCURVE",
 "121 283 CURVE SMOOTH"
 );
 }
 );
-width = 1000;
+width = 550;
 }
 );
 unicode = 2014;
@@ -8347,22 +8347,22 @@ nodes = (
 "16 289 CURVE",
 "19 328 LINE",
 "118 321 OFFCURVE",
-"303 322 OFFCURVE",
-"401 323 CURVE SMOOTH",
-"437 323 OFFCURVE",
-"431 325 OFFCURVE",
-"467 325 CURVE",
-"467 286 LINE",
-"432 286 OFFCURVE",
-"437 284 OFFCURVE",
-"402 284 CURVE SMOOTH",
-"366 283 OFFCURVE",
+"153 322 OFFCURVE",
+"251 323 CURVE SMOOTH",
+"287 323 OFFCURVE",
+"281 325 OFFCURVE",
+"317 325 CURVE",
+"317 286 LINE",
+"282 286 OFFCURVE",
+"287 284 OFFCURVE",
+"252 284 CURVE SMOOTH",
+"216 283 OFFCURVE",
 "179 283 OFFCURVE",
 "143 283 CURVE SMOOTH"
 );
 }
 );
-width = 500;
+width = 350;
 }
 );
 unicode = 2013;
@@ -8377,27 +8377,18 @@ paths = (
 {
 closed = 1;
 nodes = (
-"95 283 OFFCURVE",
-"79 284 OFFCURVE",
+"232 286 OFFCURVE",
+"102 282 OFFCURVE",
 "16 289 CURVE",
 "19 328 LINE",
 "118 321 OFFCURVE",
-"99 322 OFFCURVE",
-"197 323 CURVE SMOOTH",
-"233 323 OFFCURVE",
-"247 325 OFFCURVE",
-"283 325 CURVE",
-"283 286 LINE",
-"248 286 OFFCURVE",
-"233 284 OFFCURVE",
-"198 284 CURVE SMOOTH",
-"162 283 OFFCURVE",
-"175 283 OFFCURVE",
-"139 283 CURVE SMOOTH"
+"231 325 OFFCURVE",
+"267 325 CURVE",
+"267 286 LINE"
 );
 }
 );
-width = 316;
+width = 300;
 }
 );
 unicode = 002D;
@@ -9201,28 +9192,31 @@ paths = (
 {
 closed = 1;
 nodes = (
-"322 51 LINE",
-"322 136 OFFCURVE",
-"317 159 OFFCURVE",
-"312 230 CURVE SMOOTH",
-"304 350 OFFCURVE",
-"297 412 OFFCURVE",
-"314 556 CURVE",
-"358 550 LINE",
-"341 411 OFFCURVE",
-"348 350 OFFCURVE",
-"356 233 CURVE SMOOTH",
-"361 162 OFFCURVE",
-"366 137 OFFCURVE",
-"366 51 CURVE"
-);
-},
-{
-closed = 1;
-nodes = (
-"66 284 LINE",
-"66 328 LINE",
 "583 328 LINE",
+"349.624 328 LINE",
+"345.962 394.33 OFFCURVE",
+"346.171 453.284 OFFCURVE",
+"358 550 CURVE",
+"314 556 LINE",
+"302.209 456.124 OFFCURVE",
+"301.964 395.694 OFFCURVE",
+"305.589 328 CURVE",
+"66 328 LINE",
+"66 284 LINE",
+"308.312 284 LINE",
+"309.452 267.113 OFFCURVE",
+"310.713 249.307 OFFCURVE",
+"312 230 CURVE SMOOTH",
+"317 159 OFFCURVE",
+"322 136 OFFCURVE",
+"322 51 CURVE",
+"366 51 LINE",
+"366 137 OFFCURVE",
+"361 162 OFFCURVE",
+"356 233 CURVE SMOOTH",
+"354.757 251.185 OFFCURVE",
+"353.537 268.017 OFFCURVE",
+"352.429 284 CURVE",
 "583 284 LINE"
 );
 }
@@ -9265,11 +9259,8 @@ nodes = (
 "30 478 OFFCURVE",
 "18 457 OFFCURVE",
 "19 436 CURVE SMOOTH",
-"20 410 OFFCURVE",
-"44 395 OFFCURVE",
-"51 389 CURVE",
-"67 380 OFFCURVE",
-"86 372 OFFCURVE",
+"20 397 OFFCURVE",
+"68 380 OFFCURVE",
 "104 364 CURVE SMOOTH",
 "128 355 OFFCURVE",
 "165 339 OFFCURVE",
@@ -9283,10 +9274,9 @@ nodes = (
 "18 124 OFFCURVE",
 "30 100 OFFCURVE",
 "54 76 CURVE SMOOTH",
-"68 60 OFFCURVE",
-"88 45 OFFCURVE",
-"111 30 CURVE",
-"109 30 LINE",
+"67 62 OFFCURVE",
+"90 44 OFFCURVE",
+"109 30 CURVE",
 "111 -36 OFFCURVE",
 "110 -74 OFFCURVE",
 "108 -148 CURVE",
@@ -9307,11 +9297,8 @@ nodes = (
 "173 277 OFFCURVE",
 "203 299 OFFCURVE",
 "203 327 CURVE SMOOTH",
-"203 344 OFFCURVE",
-"193 360 OFFCURVE",
-"172 374 CURVE",
+"203 366 OFFCURVE",
 "157 383 OFFCURVE",
-"138 391 OFFCURVE",
 "119 399 CURVE SMOOTH",
 "95 410 OFFCURVE",
 "58 425 OFFCURVE",
@@ -9659,10 +9646,10 @@ v = "-22";
 w = "-16";
 };
 B = {
+comma = "-33";
 f = "-22";
 j = "-22";
 period = "-33";
-comma = "-33";
 quoteright = "-66";
 };
 C = {
@@ -9670,9 +9657,9 @@ w = "-33";
 };
 D = {
 a = "-16";
-x = "-11";
-period = "-33";
 comma = "-50";
+period = "-33";
+x = "-11";
 };
 E = {
 a = "-44";
@@ -9689,6 +9676,7 @@ F = {
 a = "-33";
 b = 33;
 c = "-33";
+comma = "-50";
 d = "-33";
 e = "-33";
 g = "-50";
@@ -9701,7 +9689,9 @@ m = "-33";
 n = "-33";
 o = "-33";
 p = "-33";
+period = "-50";
 q = "-33";
+quoteright = 66;
 r = "-33";
 s = "-33";
 u = "-33";
@@ -9710,19 +9700,20 @@ w = "-33";
 x = "-33";
 y = "-33";
 z = "-33";
-period = "-50";
-comma = "-50";
-quoteright = 66;
 };
 G = {
+comma = "-33";
 f = "-22";
 j = "-16";
 m = "-22";
+period = "-33";
+quoteright = "-66";
 v = "-16";
 w = "-16";
-period = "-33";
+};
+H = {
 comma = "-33";
-quoteright = "-66";
+period = "-16";
 };
 I = {
 a = "-22";
@@ -9739,6 +9730,7 @@ w = "-22";
 J = {
 a = "-77";
 c = "-50";
+comma = "-50";
 d = "-50";
 e = "-50";
 f = "-33";
@@ -9749,6 +9741,7 @@ m = "-50";
 n = "-50";
 o = "-50";
 p = "-50";
+period = "-66";
 q = "-50";
 r = "-50";
 s = "-50";
@@ -9758,31 +9751,34 @@ w = "-50";
 x = "-50";
 y = "-50";
 z = "-50";
-period = "-66";
-comma = "-50";
 };
 K = {
+quoteright = "-33";
 v = "-33";
 w = "-33";
-quoteright = "-33";
 };
 L = {
+quoteright = "-22";
 v = "-22";
 w = "-22";
-quoteright = "-22";
+};
+O = {
+comma = "-33";
+period = "-16";
+quoteright = "-33";
 };
 P = {
 a = "-33";
 c = "-33";
+comma = "-77";
 d = "-33";
 e = "-44";
 g = "-33";
 o = "-33";
 p = "-33";
+period = "-66";
 q = "-33";
 s = "-16";
-period = "-66";
-comma = "-77";
 };
 R = {
 u = "-16";
@@ -9790,13 +9786,14 @@ v = "-33";
 w = "-33";
 };
 S = {
+comma = "-33";
 f = "-22";
 j = "-22";
-comma = "-33";
 };
 T = {
 a = "-33";
 c = "-33";
+comma = "-50";
 d = "-33";
 e = "-33";
 g = "-33";
@@ -9804,6 +9801,7 @@ m = "-33";
 n = "-50";
 o = "-66";
 p = "-33";
+period = "-33";
 q = "-33";
 r = "-33";
 s = "-33";
@@ -9813,36 +9811,38 @@ w = "-33";
 x = "-33";
 y = "-33";
 z = "-33";
-period = "-33";
-comma = "-50";
+};
+U = {
+comma = "-33";
+period = "-16";
 };
 V = {
 a = "-33";
 c = "-33";
+comma = "-50";
 d = "-33";
 e = "-33";
 g = "-33";
 o = "-33";
 p = "-33";
+period = "-50";
 q = "-33";
 r = "-33";
 s = "-33";
 u = "-33";
 z = "-33";
-period = "-50";
-comma = "-50";
 };
 W = {
 a = "-33";
 c = "-33";
+comma = "-66";
 d = "-33";
 e = "-33";
 g = "-33";
 o = "-33";
 p = "-33";
-u = "-33";
 period = "-50";
-comma = "-66";
+u = "-33";
 };
 X = {
 c = "-33";
@@ -9858,6 +9858,7 @@ u = "-33";
 Y = {
 a = "-44";
 c = "-50";
+comma = "-66";
 d = "-44";
 e = "-50";
 g = "-50";
@@ -9865,6 +9866,7 @@ m = "-44";
 n = "-44";
 o = "-50";
 p = "-50";
+period = "-50";
 q = "-50";
 r = "-50";
 s = "-50";
@@ -9873,8 +9875,6 @@ v = "-50";
 w = "-50";
 x = "-50";
 z = "-50";
-period = "-50";
-comma = "-66";
 };
 a = {
 C = "-16";
@@ -9884,9 +9884,9 @@ V = "-33";
 W = "-33";
 Y = "-50";
 n = "-11";
+quoteright = "-33";
 v = "-33";
 w = "-33";
-quoteright = "-33";
 };
 b = {
 I = "-33";
@@ -9922,6 +9922,12 @@ P = 50;
 U = 33;
 period = "-33";
 quoteright = 66;
+};
+f_f = {
+period = "-66";
+};
+f_t = {
+period = "-16";
 };
 five = {
 nine = "-50";
@@ -9983,11 +9989,19 @@ X = "-33";
 Y = "-50";
 period = "-16";
 };
+period = {
+four = "-66";
+nine = "-99";
+seven = "-66";
+};
 q = {
 T = "-33";
 V = "-33";
 Y = "-50";
 j = "-22";
+};
+quoteright = {
+u = "-16";
 };
 r = {
 I = "-33";
@@ -9996,9 +10010,9 @@ V = "-33";
 X = "-33";
 Y = "-50";
 Z = "-33";
+comma = "-66";
 j = "-33";
 period = "-66";
-comma = "-66";
 };
 s = {
 T = "-33";
@@ -10007,6 +10021,9 @@ Y = "-50";
 g = 16;
 j = "-22";
 quoteright = "-33";
+};
+seven = {
+period = "-66";
 };
 six = {
 four = "-50";
@@ -10036,18 +10053,18 @@ Y = "-50";
 Z = "-33";
 a = "-33";
 c = "-16";
+comma = "-66";
 e = "-33";
 g = "-33";
 p = "-22";
 period = "-50";
-comma = "-66";
 };
 w = {
 T = "-33";
 Y = "-50";
+comma = "-50";
 g = "-16";
 period = "-33";
-comma = "-50";
 };
 x = {
 T = "-33";
@@ -10067,38 +10084,8 @@ Y = "-50";
 j = "-16";
 quoteright = "-33";
 };
-H = {
-period = "-16";
-comma = "-33";
-};
-O = {
-period = "-16";
-comma = "-33";
-quoteright = "-33";
-};
-U = {
-period = "-16";
-comma = "-33";
-};
-f_f = {
-period = "-66";
-};
-f_t = {
-period = "-16";
-};
 zero = {
 period = "-50";
-};
-seven = {
-period = "-66";
-};
-period = {
-four = "-66";
-seven = "-66";
-nine = "-99";
-};
-quoteright = {
-u = "-16";
 };
 };
 };
